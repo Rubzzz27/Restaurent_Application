@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View product details, ingredients, pricing, and order options for Restaurant Name menu items.">
+    <meta name="author" content="Restaurant Name">
+    <title>Product Details | Restaurant Name</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header scrolled" id="site-header">
+        <nav class="navbar" aria-label="Primary navigation">
+            <a href="index.html#home" class="logo" aria-label="Restaurant Name home">
+                <span class="logo-mark"><i class="fa-solid fa-utensils"></i></span>
+                <span>Restaurant Name</span>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="nav-menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a class="nav-link" href="index.html#home">Home</a></li>
+                <li><a class="nav-link active" href="index.html#menu">Menu</a></li>
+                <li><a class="nav-link" href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-detail-section" aria-labelledby="detail-name">
+            <div class="container product-detail-layout reveal">
+                <div class="product-media">
+                    <img id="detail-image" src="" alt="">
+                </div>
+
+                <article class="product-panel">
+                    <a class="back-link" href="index.html#menu">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        Back to Menu
+                    </a>
+                    <p class="eyebrow" id="detail-category">Signature Dish</p>
+                    <h1 id="detail-name">Menu Item</h1>
+                    <p class="detail-description" id="detail-description"></p>
+
+                    <div class="detail-meta">
+                        <div>
+                            <span>Price</span>
+                            <strong id="detail-price"></strong>
+                        </div>
+                        <div>
+                            <span>Prep Time</span>
+                            <strong id="detail-time"></strong>
+                        </div>
+                        <div>
+                            <span>Rating</span>
+                            <strong><i class="fa-solid fa-star"></i> 4.9</strong>
+                        </div>
+                    </div>
+
+                    <div class="ingredients-box">
+                        <h2>What's Inside</h2>
+                        <ul id="detail-ingredients"></ul>
+                    </div>
+
+                    <div class="order-panel" aria-label="Order controls">
+                        <div class="quantity-control">
+                            <button type="button" id="quantity-minus" aria-label="Decrease quantity">-</button>
+                            <span id="quantity-value">1</span>
+                            <button type="button" id="quantity-plus" aria-label="Increase quantity">+</button>
+                        </div>
+                        <button class="btn btn-primary detail-order-btn" type="button" id="detail-order-btn">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            Add to Order
+                        </button>
+                    </div>
+
+                    <p class="form-status" id="detail-status" role="status" aria-live="polite"></p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
