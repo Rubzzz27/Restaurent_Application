@@ -14,7 +14,7 @@ const menuItems = {
     "margherita-pizza": {
         name: "Margherita Pizza",
         category: "Wood-Fired Classic",
-        price: "$14.99",
+        price: "₹150",
         time: "18 min",
         image: "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&w=1200&q=85",
         description: "A crisp, blistered crust layered with bright tomato sauce, fresh mozzarella, basil, and a finishing touch of olive oil.",
@@ -23,7 +23,7 @@ const menuItems = {
     "chicken-burger": {
         name: "Chicken Burger",
         category: "House Favorite",
-        price: "$12.99",
+        price: "₹100",
         time: "15 min",
         image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1200&q=85",
         description: "A golden crispy chicken burger stacked with smoked aioli, cheddar, lettuce, and a toasted brioche bun.",
@@ -32,7 +32,7 @@ const menuItems = {
     "pasta-alfredo": {
         name: "Pasta Alfredo",
         category: "Creamy Signature",
-        price: "$16.49",
+        price: "₹120",
         time: "16 min",
         image: "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?auto=format&fit=crop&w=1200&q=85",
         description: "Fettuccine tossed in parmesan cream with cracked pepper, herb oil, and a silky restaurant-style finish.",
@@ -41,7 +41,7 @@ const menuItems = {
     "grilled-steak": {
         name: "Grilled Steak",
         category: "Premium Grill",
-        price: "$28.99",
+        price: "₹160",
         time: "25 min",
         image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=85",
         description: "A char-grilled prime cut served with rosemary jus, roasted vegetables, and sea salt.",
@@ -50,7 +50,7 @@ const menuItems = {
     "veg-biryani": {
         name: "Veg Biryani",
         category: "Aromatic Rice",
-        price: "$13.99",
+        price: "₹110",
         time: "22 min",
         image: "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?auto=format&fit=crop&w=1200&q=85",
         description: "Fragrant basmati rice cooked with saffron, vegetables, mint, and slow-bloomed spices.",
@@ -59,7 +59,7 @@ const menuItems = {
     "chocolate-cake": {
         name: "Chocolate Cake",
         category: "Dessert",
-        price: "$8.99",
+        price: "₹150",
         time: "10 min",
         image: "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=1200&q=85",
         description: "Dark chocolate sponge layered with ganache, cocoa nibs, and a smooth vanilla cream finish.",
